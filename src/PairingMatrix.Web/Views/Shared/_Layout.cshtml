@@ -9,13 +9,34 @@
     <title>Pairing Matrix</title>
 </head>
 <body>
-    <div>
-        <h1>
-            Pairing Matrix
-        </h1>
+<div>
+    <div class="header" style="background-color: #20b2aa; min-height: 100px">
+
+        <a href="@Url.Action("Index", "Home")">
+            <h1>
+                Pairing Matrix
+            </h1>
+            -beta
+        </a>
+        
         <div>
-            @RenderBody()
+            <ul>
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("My teams", "Index", "Teams")
+                </li>
+            </ul>
+
         </div>
     </div>
+    <div class="middleBody" style="min-height: 400px;background-color: #bdb76b">
+        @RenderBody()
+    </div>
+    <div class="footer" style="min-height: 100px;background-color: #20b2aa">
+        Copyright 2016 - Pairing Matrix
+    </div>
+</div>
 </body>
 </html>
