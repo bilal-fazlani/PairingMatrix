@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PairingMatrix.Web")]
+[assembly: AssemblyTitle("PairingMatrix.Service")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Seek Limited")]
-[assembly: AssemblyProduct("PairingMatrix.Web")]
+[assembly: AssemblyProduct("PairingMatrix.Service")]
 [assembly: AssemblyCopyright("Copyright © Seek Limited 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,4 +19,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5c31d104-76a8-4d09-8d66-da10f171c4d6")]
+[assembly: Guid("7f186b14-f4e0-4419-bba5-189453fba48d")]

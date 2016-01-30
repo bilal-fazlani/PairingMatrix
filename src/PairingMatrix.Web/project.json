@@ -20,8 +20,10 @@
       }
     }
   },
-
   "commands": {
     "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+  "dependencies": {
+    "PairingMatrix.ServiceClient": "1.0.0-*"
   }
 }
