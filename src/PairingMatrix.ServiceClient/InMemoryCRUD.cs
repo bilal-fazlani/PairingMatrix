@@ -10,7 +10,8 @@ namespace PairingMatrix.ServiceClient
     public class InMemoryCRUD<T> : ICRUD<T> where T:IModel
     {
         private readonly ConcurrentDictionary<long, T> _data = new ConcurrentDictionary<long,T>();
-        
+        private long _identity = 0;
+
         public async Task AddOrUpdateAsync(T model)
         {
             if (model.Id != 0) //update
@@ -19,6 +20,7 @@ namespace PairingMatrix.ServiceClient
             }
             else // add new model
             {
+                model.Id = ++_identity;
                 _data.TryAdd(model.Id, model);
             }
         }
