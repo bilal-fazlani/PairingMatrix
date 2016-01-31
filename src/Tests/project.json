@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-*",
   "description": "Tests Class Library",
   "authors": [ "bfazlani" ],
@@ -23,6 +23,7 @@
     "test": "xunit.runner.dnx"
   },
   "dependencies": {
+    "PairingMatrix.Service": "1.0.0-*",
     "PairingMatrix.ServiceClient": "1.0.0-*"
   }
 }

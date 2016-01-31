@@ -1212,11 +1212,32 @@
           "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll": {}
         }
       },
+      "PairingMatrix.Service/1.0.0": {
+        "type": "project",
+        "framework": "DNXCore,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNet.Diagnostics": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "Microsoft.Extensions.Configuration": "1.0.0-rc2-15952",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-15952",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "PairingMatrix.ServiceClient/1.0.0": {
         "type": "project",
         "framework": "DNXCore,Version=v5.0",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1-beta-23516",
+          "PairingMatrix.Service": "1.0.0",
           "System.Collections": "4.0.11-beta-23516",
           "System.Collections.Concurrent": "4.0.11-beta-23516",
           "System.Linq": "4.0.1-beta-23516",
@@ -3320,11 +3341,32 @@
           "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll": {}
         }
       },
+      "PairingMatrix.Service/1.0.0": {
+        "type": "project",
+        "framework": "DNXCore,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNet.Diagnostics": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "Microsoft.Extensions.Configuration": "1.0.0-rc2-15952",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-15952",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "PairingMatrix.ServiceClient/1.0.0": {
         "type": "project",
         "framework": "DNXCore,Version=v5.0",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1-beta-23516",
+          "PairingMatrix.Service": "1.0.0",
           "System.Collections": "4.0.11-beta-23516",
           "System.Collections.Concurrent": "4.0.11-beta-23516",
           "System.Linq": "4.0.1-beta-23516",
@@ -5834,11 +5876,32 @@
           "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll": {}
         }
       },
+      "PairingMatrix.Service/1.0.0": {
+        "type": "project",
+        "framework": "DNXCore,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNet.Diagnostics": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final",
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "Microsoft.Extensions.Configuration": "1.0.0-rc2-15952",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-15952",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "PairingMatrix.ServiceClient/1.0.0": {
         "type": "project",
         "framework": "DNXCore,Version=v5.0",
         "dependencies": {
           "Microsoft.CSharp": "4.0.1-beta-23516",
+          "PairingMatrix.Service": "1.0.0",
           "System.Collections": "4.0.11-beta-23516",
           "System.Collections.Concurrent": "4.0.11-beta-23516",
           "System.Linq": "4.0.1-beta-23516",
@@ -7137,6 +7200,10 @@
     }
   },
   "libraries": {
+    "PairingMatrix.Service/1.0.0": {
+      "type": "project",
+      "path": "../PairingMatrix.Service/project.json"
+    },
     "PairingMatrix.ServiceClient/1.0.0": {
       "type": "project",
       "path": "../PairingMatrix.ServiceClient/project.json"

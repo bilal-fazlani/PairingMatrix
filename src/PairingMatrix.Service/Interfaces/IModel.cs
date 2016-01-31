@@ -1,4 +1,4 @@
-﻿namespace PairingMatrix.ServiceClient.Interfaces
+﻿namespace PairingMatrix.Service.Interfaces
 {
     public interface IModel
     {

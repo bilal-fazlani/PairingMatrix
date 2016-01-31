@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using PairingMatrix.ServiceClient.Interfaces;
+using PairingMatrix.Service.Interfaces;
 
 namespace PairingMatrix.ServiceClient.Models
 {
@@ -12,8 +12,8 @@ namespace PairingMatrix.ServiceClient.Models
 
         public DateTime? EndDate { get; set; }
 
-        public Team Team { get; set; }
+        public long TeamId { get; set; }
 
-        public IList<Pair> Pairs { get; set; }
+        public IList<long> PairIds { get; set; }
     }
 }

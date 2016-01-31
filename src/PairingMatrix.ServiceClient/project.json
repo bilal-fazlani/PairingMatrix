@@ -17,6 +17,7 @@
     }
   },
   "dependencies": {
+    "PairingMatrix.Service": "1.0.0-*",
     "System.Collections.Concurrent": "4.0.11-beta-23516"
   }
 }

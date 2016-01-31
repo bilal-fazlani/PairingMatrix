@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FluentAssertions;
+using PairingMatrix.Service.Models;
 using PairingMatrix.ServiceClient;
-using PairingMatrix.ServiceClient.Models;
 using Xunit;
 
 namespace Tests.UnitTests

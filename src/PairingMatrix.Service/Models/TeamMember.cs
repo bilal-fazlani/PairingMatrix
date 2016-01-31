@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using PairingMatrix.ServiceClient.Interfaces;
+using PairingMatrix.Service.Interfaces;
 
-namespace PairingMatrix.ServiceClient.Models
+namespace PairingMatrix.Service.Models
 {
     public class TeamMember:IModel
     {
@@ -9,6 +9,6 @@ namespace PairingMatrix.ServiceClient.Models
 
         public string Email { get; set; }
 
-        public IList<Team> Teams { get; set; }
+        public List<long> TeamIds { get; set; }
     }
 }

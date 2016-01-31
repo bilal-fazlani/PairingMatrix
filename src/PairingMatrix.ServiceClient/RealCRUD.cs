@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using PairingMatrix.Service.Interfaces;
 using PairingMatrix.ServiceClient.Interfaces;
 
 namespace PairingMatrix.ServiceClient
